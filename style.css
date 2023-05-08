@@ -1,0 +1,66 @@
+body {
+    background: green;
+}
+div {
+    user-select: none;
+}
+#game {
+    width: 70%;
+    height: 835px;
+    background: white;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.container {
+    height: 700px;
+    padding-top: 3%;
+}
+
+.container-x {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.container-y {
+    width: 50px;
+    height: 50px;
+    border-color: black;
+    display: flex;
+}
+
+.clear {
+    background-color: bisque;
+}
+
+.dark {
+    background-color: rgba(141, 82, 11, 0.975);
+}
+
+.pion-player {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    justify-content: center;
+    margin: auto;
+}
+
+.pion-player-white {
+
+    background-color: bisque;
+
+}
+
+.t-pion {
+    background-color: rgba(168, 36, 0, 0.975) !important;
+}
+
+.pion-player-black {
+
+    background-color: rgba(81, 48, 8, 0.975);
+
+}
+.t-queen-white{
+    
+}
